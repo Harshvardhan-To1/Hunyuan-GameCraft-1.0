@@ -33,7 +33,7 @@ PROMPT_TEMPLATE = {
 PRECISIONS = {"fp32", "fp16", "bf16"}
 
 # =================== Model Path =====================
-MODEL_BASE = os.getenv("MODEL_BASE")
+MODEL_BASE = "./weights/stdmodels"
 
 # 3D VAE
 VAE_PATH = {
